@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "blind-screen",
+  "description": "Blinded, independent human + Claude dual screening for systematic reviews and meta-analyses.",
+  "owner": {
+    "name": "rawmatterx",
+    "url": "https://github.com/rawmatterx"
+  },
+  "plugins": [
+    {
+      "name": "blind-screen",
+      "displayName": "Blind Screen — independent dual review for systematic reviews",
+      "description": "Claude screens every record first and its decisions are sealed (SHA-256) before you start; you screen blind in a fast local keyboard page; then Cohen's kappa and only the disagreements come back for you to decide. Title/abstract and full-text stages, PRISMA counts and a ready Methods paragraph.",
+      "version": "0.1.0",
+      "author": {
+        "name": "rawmatterx",
+        "url": "https://github.com/rawmatterx"
+      },
+      "homepage": "https://github.com/rawmatterx/blind-screen",
+      "repository": "https://github.com/rawmatterx/blind-screen",
+      "license": "MIT",
+      "keywords": [
+        "systematic-review",
+        "meta-analysis",
+        "screening",
+        "prisma",
+        "evidence-synthesis",
+        "medical-research",
+        "inter-rater-agreement"
+      ],
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/blind-screen"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.DS_Store
+# never commit a real review's screening data
+2_Screening/
